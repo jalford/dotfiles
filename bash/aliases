@@ -9,7 +9,7 @@ alias gc='git commit'
 alias gca='git commit -a'
 alias gco='git checkout'
 alias gb='git branch'
-alias ungit="find . -name '.git' -exec rm -rf {} \;"
+alias ungit="find . -name '.git' -exec rm -rf {} \; | find . -name '.gitignore' -exec rm -rf {} \;"
 alias gd='git diff'
 alias gdm='git diff master'
 
