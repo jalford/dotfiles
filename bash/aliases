@@ -1,22 +1,6 @@
-alias ct='cd /Volumes/Code/TSD'
-alias ..='cd ..'
-alias c='clear'
-alias cdd='cd -'  # goto last dir cd'ed from
-alias cll='clear; lh'
-alias cl='clear; ls'
-alias h='history'
-alias m="mate"
-alias m.="mate ."
-alias l.='ls -d .[^.]*'
-alias lah='ls -lah'
-alias lh="ls -lh"
-alias ll='ls -lhG'
-alias lt='ls -lt'
-alias md='mkdir -p'
-alias o='open . &'
-alias ea='mate -w ~/bin/dotfiles/bash/aliases && reload'
-alias ra='source ~/bin/dotfiles/bash/aliases'
-alias e='exit'
+
+
+# git
 alias gs='git status'
 alias gb='git branch'
 alias gp='git push'
@@ -28,12 +12,41 @@ alias gb='git branch'
 alias ungit="find . -name '.git' -exec rm -rf {} \;"
 alias gd='git diff'
 alias gdm='git diff master'
+
+# textmate
+alias m="mate"
+alias m.="mate ."
+
+# alias
+alias ea='mate -w ~/bin/dotfiles/bash/aliases && reload'
+alias ra='source ~/bin/dotfiles/bash/aliases'
+
+# jump to code
+alias tsd='cd /Volumes/Code/TSD'
+alias code='cd /Volumes/Code/$1'
+
+# command line - navigation
+alias ..='cd ..'
+alias c-='cd -'
+
+# command line - list
+alias l.='ls -d .[^.]*'
+alias lah='ls -lah'
+alias lh="ls -lh"
+alias ll='ls -lhG'
+alias lt='ls -lt'
+
+# command line - misc
+alias c='clear'
+alias cll='clear; lh'
+alias cl='clear; ls'
+alias h='history'
+alias md='mkdir -p'
+alias e='exit'
 function mdcd() { 
     mkdir -p "$1"
     cd "$1" 
 }
 
-
-
-
-
+# finder
+alias o='open . &'
