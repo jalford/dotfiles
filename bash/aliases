@@ -4,6 +4,7 @@
 alias gs='git status'
 alias gb='git branch'
 alias gp='git push'
+alias gcl='git clone'
 alias gd='git diff'
 alias gc='git commit'
 alias gca='git commit -a'
@@ -29,6 +30,7 @@ alias code='cd /Volumes/Code/$1'
 # command line - navigation
 alias ..='cd ..'
 alias c-='cd -'
+alias cdt='cd ~/bin/dotfiles/'
 
 # command line - list
 alias l.='ls -d .[^.]*'
