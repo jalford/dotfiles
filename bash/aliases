@@ -12,6 +12,7 @@ alias gb='git branch'
 alias ungit="find . -name '.git' -exec rm -rf {} \; | find . -name '.gitignore' -exec rm -rf {} \;"
 alias gd='git diff'
 alias gdm='git diff master'
+alias grm='git ls-files --deleted | xargs git rm' # Removes all deleted files at once rather than running "git rm <filename>" multiple times.
 
 # textmate
 alias m="mate"
