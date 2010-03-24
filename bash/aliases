@@ -16,6 +16,7 @@ alias gdm='git diff master'
 alias grm='git ls-files --deleted | xargs git rm' # Removes all deleted files at once rather than running "git rm <filename>" multiple times.
 alias gx='gitx &'
 alias gk='gitk &'
+alias gka='gitk --all &'
 
 # textmate
 alias m="mate"
