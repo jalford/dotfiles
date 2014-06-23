@@ -13,3 +13,7 @@ They use vcprompt (http://vc.gerg.ca/hg/vcprompt/) which goes in:
 	then
 	        source ~/.bashrc
 	fi
+
+After making changes, run:
+ 	source ~/.bashrc
+ 
