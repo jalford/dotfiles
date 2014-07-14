@@ -57,9 +57,9 @@ function mdcd() {
 # finder
 alias o='open . &'
 
-# Sublime Text 2
-alias sublime="open '/Applications/Sublime Text 2.app'"
-alias subl="open '/Applications/Sublime Text 2.app'"
+# Sublime Text
+alias sublime="open '/Applications/Sublime Text.app'"
+alias subl="open '/Applications/Sublime Text.app'"
 
 # copy public ssh key
 alias sshkey="cat ~/.ssh/id_rsa.pub | pbcopy && echo 'Copied to clipboard.'"
