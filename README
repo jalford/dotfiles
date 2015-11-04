@@ -3,6 +3,8 @@ These are my dotfiles.
 They use vcprompt (http://vc.gerg.ca/hg/vcprompt/) which goes in:
 	~/bin/vcprompt
 
+The easiest way to install vcprompt is using Homebrew.
+
 
 ~/.bashrc contains one line:
 	. ~/bin/dotfiles/bashrc
