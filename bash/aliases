@@ -57,18 +57,15 @@ function mdcd() {
 # finder
 alias o='open . &'
 
-# Sublime Text
-alias sublime="open '/Applications/Sublime Text 2.app'"
-alias subl="open '/Applications/Sublime Text 2.app'"
-
 # copy public ssh key
 alias sshkey="cat ~/.ssh/id_rsa.pub | pbcopy && echo 'Copied to clipboard.'"
 
 # vagrant
 alias vm="ssh vagrant@127.0.0.1 -p 2222"
 
+
 #Source Tree
-alias stree="open /Applications/SourceTree.app/"
+alias stree="open -a /Applications/SourceTree.app/"
 
 # SEP
 alias sep='cd /Volumes/SEP\ Code/sepath.com'
