@@ -69,3 +69,7 @@ alias stree="open -a /Applications/SourceTree.app/"
 
 # SEP
 alias sep='cd /Volumes/SEP\ Code/sepath.com'
+
+# Homestead
+alias homestead='function __homestead() { (cd ~/Homestead && vagrant $*); unset$
+
