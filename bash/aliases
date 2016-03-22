@@ -73,3 +73,5 @@ alias sep='cd /Volumes/SEP\ Code/sepath.com'
 # Homestead
 alias homestead='function __homestead() { (cd ~/Homestead && vagrant $*); unset$
 
+# Artisan
+alias serve='php artisan serve'
